@@ -16,7 +16,6 @@ public class TestCase1 {
 
     @Test
     public void TestCase1(){
-
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
